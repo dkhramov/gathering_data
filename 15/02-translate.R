@@ -13,7 +13,7 @@ in_text <- rd$findElement(using = "xpath",
                           value = "//div[@class='item item_left']
                           //textarea[@id='textarea']")
 
-# Переведем названия городов на английский
+# Переведём названия городов на английский
 in_text$sendKeysToElement(list("Москва, Санкт-Петербург, Саратов",
                                "\uE007"))
 
